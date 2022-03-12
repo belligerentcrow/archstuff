@@ -1,5 +1,5 @@
 # archstuff
-some scripts i've made to make my live easier in my arch setup
+some scripts i've made to make my live easier in my arch setup and some config files 
 
 ## main stuff
 * <b><u>i3-gaps</u></b>, <b><u>picom</u></b>, <b><u>urxvt terminal</u></b>, <b>(dmenu)</b>, <b>(polybar)</b>. 
