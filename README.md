@@ -1,16 +1,24 @@
 # archstuff
 some scripts i've made to make my live easier in my arch setup
 
-### main stuff
-> i3-gaps, picom, urxvt terminal, (dmenu), (polybar). 
+## main stuff
+* i3-gaps, picom, urxvt terminal, (dmenu), (polybar). 
+
 nothing much, but i like how it looks rn. i haven't really riced much tbh. 
 
-other software i use:
+## other software i use:
 ### file manager:  
-      > ranger, pcmanfm
+ * ranger, pcmanfm
 ### file editors:
-      > vim. vscode for really big stuff. okular to read pdfs. (i really liked deepin-reader but idk why the padding/margin on i3-gaps is ridiculously big, both as floating and as windowed. weird. )
+ * vim. vscode for really big stuff. okular to read pdfs. 
+
+(i really liked deepin-reader but idk why the padding/margin on i3-gaps is ridiculously big, both as floating and as windowed. weird. )
 ### browser: 
-      > firefox, modded and with extensions (ublock origin, decentraleyes, clearURL, darkreader)
+ * firefox, modded and with extensions (ublock origin, decentraleyes, clearURL, darkreader)
 ### random and technically useless pieces of code that i find very endearing:
-      >cmatrix, cbonsai, asciiquarium 
+ * cmatrix, cbonsai, asciiquarium 
+
+## stuff that i will probably add in the future
+* polybar rice maybe ?
+* spotify or discord rice if i actually manage to do it
+* scripts to automatize stuff  
