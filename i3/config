@@ -6,7 +6,6 @@ exec_always --no-startup-id xrandr --output DP1-8 --mode 2560x1440 --rate 59.95
 
 exec_always ~/Packages/myCode/selectRandomTheme.sh
 
-
 font pango:Overpass Regular 8
 
 # Press mod key to be able to resize floating windows
@@ -31,7 +30,11 @@ bindsym $mod+o gaps outer current plus 5
 bindsym $mod+Shift+o gaps outer current minus 5
 
 #Open dmenu 
-bindsym $mod+d exec dmenu_run -fn 'Overpass Mono:pixelsize=15' -l 3 -nf '#707880' -sf '#cc6666' -nb '#1d1f21' -sb '#1d1f21'
+#bindsym $mod+d exec dmenu_run -fn 'Overpass Mono:pixelsize=15' -l 3 -nf '#707880' -sf '#cc6666' -nb '#1d1f21' -sb '#1d1f21'
+bindsym $mod+d exec /home/fed/dmen.sh
+#bindsym $mod+d exec dmenu_run -fn 'Overpass Mono:pixelsize=15' -l 3 -nf '${xrdb : color15 : #f3f4f5}' -sf '${xrdb: color15: #f3f4f5}' -nb '${xrdb:color0:#1d2021}' -sb '${xrdb: color1:#cc241d}'
+
+#bindsym $mod+d exec dmenu_run -fn 'Overpass Mono:pixelsize=15' -l 3  -nb '${xrdb: color0:#1d2021}' -nf '${xrdb: color15:#f3f4f5}' -sb '${xrdb: color1:#cc241d}' -sf '${xrdb:color15:#f3f4f5}' 
 
 # Change focus
 bindsym $mod+j focus left
@@ -153,7 +156,7 @@ hide_edge_borders vertical
 
 # Color variables
 set $unfocused_border #1D1F21
-set $focused_border #CC6666
+set $focused_border #81d6d0
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #ffffff #ffffff #ffffff #ffffff   $focused_border
@@ -172,7 +175,7 @@ exec_always --no-startup-id xrdb ~/.Xresources
 
 # Apply a background different than the one used by wal
 # If this isn't needed, remove it and remove -n flag from the above command
-exec_always --no-startup-id feh --bg-fill ~/Pictures/Wal/bg1.jpg
+#exec_always --no-startup-id feh --bg-fill ~/Pictures/Wal/bg1.jpg
 
 # Execute polybar on launch. Script kills current ones on i3 refresh, otherwise they duplicate
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
