@@ -19,6 +19,6 @@ nothing much, but i like how it looks rn. i haven't really riced much tbh.
  * <b>cmatrix</b>, <b>cbonsai</b>, <b>asciiquarium</b> 
 
 ## stuff that i will probably add in the future
-* polybar rice maybe ?
+* polybar advanced rice maybe ?
 * spotify or discord rice if i actually manage to do it
 * scripts to automatize stuff  
