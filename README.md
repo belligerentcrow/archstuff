@@ -14,8 +14,8 @@ nothing much, but i like how it looks rn. i haven't really riced much tbh.
 
 (i really liked <b>deepin-reader</b> but idk why the padding/margin on i3-gaps is ridiculously big, both as floating and as windowed. weird. )
 ### browser: 
- * <b><u>firefox</u></b>, modded and with extensions (<b><u>ublock origin</u></b>, <b>decentraleyes</b>, <b>clearURL</b>, <b>darkreader</b>)
-### random and technically useless pieces of code that i find very endearing:
+ * <b><u>librewolf</u></b>, modded and with extensions (<b><u>ublock origin</u></b>, <b>decentraleyes</b>, <b>clearURL</b>, <b>darkreader</b>, and <b>Startpage Search</b> )
+### random and useless pieces of code that i find very endearing:
  * <b>cmatrix</b>, <b>cbonsai</b>, <b>asciiquarium</b> 
 
 ## stuff that i will probably add in the future
